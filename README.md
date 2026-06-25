@@ -141,7 +141,9 @@ A full browser-based SSH terminal. Open a tab, you're in. No PuTTY. No terminal 
 
 **Tech:** `NuxtJS 3` `Vue 3` `xterm.js` `Socket.io` `ssh2` `pm2` `Cloudflare Tunnel` `Hetzner VPS`
 
-🔗 [View the repo →](https://github.com/mah404/webterminal)
+🔗 [View the repo →](https://github.com/mah404/-Web-Terminal)
+🔗 [View Live →](https://gap-cylinder-metabolism-implemented.trycloudflare.com/)
+
 
 ---
 
