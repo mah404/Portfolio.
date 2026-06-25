@@ -173,20 +173,3 @@ A full browser-based SSH terminal. Open a tab, you're in. No PuTTY. No terminal 
 ![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)
 
 ---
-
-## 📊 GitHub Stats
-
-![mah404's GitHub stats](https://github-readme-stats.vercel.app/api?username=mah404&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mah404&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-## 📫 Contact
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mahtabvariyani@gmail.com)
-
----
-
-*Still not convinced? The commits don't lie.* 😎
