@@ -59,60 +59,22 @@ Built in **TypeScript** with a clean modular architecture — recorder, replay e
 🔗 [View the repo](https://github.com/mah404/terminalreplay) · [npm package](https://www.npmjs.com/package/terminalreplay)
 
 ---
+📰 The13thDay — Real-Time News Platform
 
-### 🤖 Telegram Video Downloader Bot
-> *Because why use sketchy websites when your own server can do it?*
+Built this because no single news site had everything I wanted. So I made one that does.
 
-**Paste any URL → choose Video or Audio → get the file in Telegram**
+A full-stack news dashboard that pulls from 7 major news agencies simultaneously, streams live TV, monitors X feeds, and lets you bookmark, filter, and translate — all in one place. Not a simple RSS reader. A proper news operations product.
+What makes it different from "just another news app":
 
-- Supports **1000+ platforms** (YouTube, Instagram, TikTok, Twitter, Facebook, Vimeo...)
-- Private bot — only I can use it
-- Runs 24/7 on my own server — no Vercel, no cold starts, no limits
-- Dockerized and auto-deployed via CI/CD
+Aggregates BBC, Reuters, Al Jazeera, Iran International, Tasnim, Fars, Al Arabiya into one unified feed — deduped, sorted, and ranked
+Live IRNN TV streaming via HLS.js with a custom proxy route that rewrites playlist segments so the stream actually works in browser
+Search isn't just a one-off filter — it turns into a persistent keyword lens that re-ranks your entire feed
+Draggable agency bar — reorder your preferred news sources, toggle them on/off, make the feed yours
+Inline Persian translation for non-Persian headlines without leaving the page
+Bookmark drawer — save stories, come back later, persisted in localStorage
+On mobile it doesn't just shrink — it becomes a completely different intent-based launcher UI with cube tiles for each section
+Custom Next.js route handlers handle fan-out to scrapers, normalize responses, merge feeds, and fall back gracefully when upstream sources fail
 
-**Tech:** Python · yt-dlp · python-telegram-bot · Docker · Hetzner
-
-🔗 [View the repo](https://github.com/mah404/telegram-bot) *(coming soon)*
-
----
-
-## 🧰 Tech Stack
-
-**DevOps & Infrastructure**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-**Development**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
-**Cloud & Hosting**
-
-![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=flat&logo=hetzner&logoColor=white)
-![Docker Hub](https://img.shields.io/badge/Docker_Hub-2496ED?style=flat&logo=docker&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-![mah404's GitHub stats](https://github-readme-stats.vercel.app/api?username=mah404&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mah404&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-## 📫 Contact
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mahtabvariyani@gmail.com)
-
----
-
-*Still not convinced? Check the repos. The commits don't lie.* 😎
+This is one of those projects that looks simple from the outside and is genuinely complex on the inside.
+Tech: Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · HLS.js · Cheerio · Framer Motion · shadcn/ui · RapidAPI
+🔗 View the repo · Live demo
